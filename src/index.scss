@@ -1,0 +1,23 @@
+.calculator {
+    text-align: center;
+    width: 50vw;
+  
+    .calculator-screen {
+      height: 40px;
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: right;
+    }
+  
+    .calculator-keys {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+  
+      button {
+        width: 100%;
+        height: 40px;
+        cursor: pointer;
+      }
+    }
+  }
